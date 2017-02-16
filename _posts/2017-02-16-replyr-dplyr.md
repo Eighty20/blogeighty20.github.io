@@ -11,7 +11,6 @@ author: "Hanjo Odendaal"
 output: html_document
 ---
 # Introduction of Parameterized dplyr expression 
-## Introduction of Parameterized dplyr expression 
 
 The usefullness of any small function you write will eventually be judged upon its ability to be generically applied across any arbitrary data. As I explored a blog post from [Dec 2016](http://www.win-vector.com/blog/2016/12/using-replyrlet-to-parameterize-dplyr-expressions/), I became a lot more interested in writing dynamic code with dplyr functions that form part of the data wrangling silo in my analytical flow. This ability came with the new `replyr` package - No longer will I have the need to break up my data processing when columns have to be changed as my code depends on certain column names in my dataset that is currently in use. 
 
