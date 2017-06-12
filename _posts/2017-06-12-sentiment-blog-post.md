@@ -8,9 +8,7 @@ category: Package Exploration
 tags: [R, tidyverse, tidytext, rvest]
 title: "Single Word Analysis of Early 19th Century Poetry Using tidytext"
 author: "Laurence Sonnenberg"
-  html_document:
-    theme: lumen
-    highlight: haddock
+output: html_document
 ---
 
 When reading poetry, it feels as if you are reading emotion. A good poet can use words to bring to their reader whichever emotions they choose. To do this, these poets often have to look deep within themselves, using their own lives as fuel. For this reason you would expect that poets and as a result, their poetry, would be influenced by the events happening around them. If certain events caused the poet's view of the world to be an unhappy one, you'd expect their poetry to be unhappy, and of course the same for the opposite. 
